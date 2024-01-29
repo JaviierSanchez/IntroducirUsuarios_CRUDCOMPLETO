@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModificarPassword">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/modificar_usuario"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="272dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="144dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/introduzca_el_usuario"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="173dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="158dp"
+        android:text="@string/actualizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPasswordNew"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextPasswordNew"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="100dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/introduzca_la_nueva_contrase_a"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPasswordOld"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextPasswordOld"
+        android:layout_width="274dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/introduzca_la_contrasenia"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUser"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="174dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActualizar"
+        app:layout_constraintVertical_bias="0.811"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

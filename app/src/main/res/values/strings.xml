@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IntroducirUsuarios</string>
+    <string name="modificar_usuario">Modificar Usuario</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="atras">Atras</string>
+    <string name="introduzca_el_usuario">Introduzca el usuario</string>
+    <string name="introduzca_la_contrasenia">Introduzca la contraseña</string>
+    <string name="introduzca_la_nueva_contrase_a">Introduzca la nueva contraseña</string>
+</resources>
